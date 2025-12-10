@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Obstacle
+  - trigger_z
+  - MovementArea
+  - trigger_z_5
+  - trigger_z_10
+  - trigger_z_15
+  - trigger_z_20
+  - trigger_z_25
+  - textpanel
+  - nextscene
   layers:
   - Default
   - TransparentFX
@@ -41,5 +51,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: ui-sorting
+    uniqueID: 2605598947
+    locked: 0
   m_RenderingLayers:
   - Default
+  - ui-render

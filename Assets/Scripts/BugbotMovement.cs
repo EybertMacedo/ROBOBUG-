@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class BugbotMovement : MonoBehaviour
 {
-    public float moveSpeed = 5.0f;
+    public float moveSpeed = 2.0f;
 
     [Header("Movimiento activo")]
     public bool canMove = true;

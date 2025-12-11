@@ -671,7 +671,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dd94a4065b447f97a68e2b365be8f89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 2
   canMove: 1
   moverArriba: 119
   moverAbajo: 115
@@ -929,8 +929,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "enemy = new Character(Enemy);\nenemy.setAggresiveness = -1;\nenemy.setSpeed
-    = 99;\nenemy.setIsMoving = True;\n\u200B"
+  m_text: "enemy = new Character(Enemy);\nenemy.setSpeed = 99;\nenemy.setIsMoving
+    = True;\n\u200B"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
@@ -1262,12 +1262,10 @@ MonoBehaviour:
   m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
   m_Text: 'enemy = new Character(Enemy);
 
-    enemy.setAggresiveness = -1;
+    enemy.setSpeed = 99;
 
-    enemy.setSpeed
-    = 99;
-
-    enemy.setIsMoving = True;
+    enemy.setIsMoving
+    = True;
 
 '
   m_CaretBlinkRate: 0.85
@@ -1866,6 +1864,50 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1193415555
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1193415557}
+  - component: {fileID: 1193415556}
+  m_Layer: 0
+  m_Name: SceneRestarter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1193415556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193415555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8beb1c0694d3c86ddbc5d8c66eb315df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1193415557
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193415555}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.1264513, y: 0.15217996, z: -7.8575187}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1219027534
 GameObject:
   m_ObjectHideFlags: 0
@@ -2896,7 +2938,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 798b1c6b0616531f1b73c91c80622650, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Level 3
+  sceneName: Level 4
 --- !u!60 &1855084282
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2943,10 +2985,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -126.21623, y: 153.94806}
-      - {x: -151.8478, y: 143.17395}
-      - {x: -2.0613418, y: 77.41094}
-      - {x: 24.182947, y: 91.189125}
+    - - {x: -199.28062, y: 160.76741}
+      - {x: -247.3186, y: 141.22557}
+      - {x: -158.90625, y: 100.79156}
+      - {x: -95.64267, y: 119.44069}
   m_UseDelaunayMesh: 0
 --- !u!1 &1891865516
 GameObject:
@@ -3237,3 +3279,4 @@ SceneRoots:
   - {fileID: 1071229057}
   - {fileID: 233901334}
   - {fileID: 73909170}
+  - {fileID: 1193415557}

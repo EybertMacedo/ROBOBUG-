@@ -14,6 +14,9 @@ TagManager:
   - trigger_z_25
   - textpanel
   - nextscene
+  - EnemyMovementArea
+  - Enemy
+  - projectile
   layers:
   - Default
   - TransparentFX

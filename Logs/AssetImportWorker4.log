@@ -4341,3 +4341,9 @@ Received Import Request.
 Start importing Assets/Items/TITLE/Images/Enemy-Sheet2-small.png using Guid(83d9bffdf220804fb97b57cd8bd361fc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e86ca695319a37a036ce9fef97209261') in 0.042336782 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+
+SDL leaked 2 allocations
+Internal: Possible leak. All render target surfaces should be removed from IdMap when destructed using RenderTargetMap::Remove(RenderSurfaceBase* rs).
